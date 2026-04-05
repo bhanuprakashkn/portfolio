@@ -9,8 +9,9 @@
 
 ## Table of Contents
 - [Who I Am](#who-i-am)
-- [Flagship Projects](#flagship-projects)
-- [Clinical UX Design Documentation](#clinical-ux-design-documentation)
+- [Current Work at CIRC NUS](#current-work-at-circ-nus-jan-2025--present)
+- [Flagship Projects](#flagship-projects-astar-20032024)
+- [Clinical System Design Documentation](#clinical-system-design-documentation)
 - [Skills Matrix](#skills-matrix)
 - [Patents](#patents--intellectual-property)
 - [Selected Publications](#selected-publications)
@@ -37,7 +38,66 @@ With 15 granted patents (5 licensed to industry), experience with NHIC and A*STA
 
 ---
 
-## Flagship Projects
+## Current Work at CIRC NUS *(Jan 2025 – Present)*
+
+**Lead, Quantitative Imaging & Data-Driven Modelling**
+Clinical Imaging Research Centre (CIRC), National University of Singapore
+
+Over the past year, our team has built three research-grade, clinically oriented AI platforms that translate quantitative imaging into actionable clinical insight. Each platform addresses a gap where standard clinical tools fall short.
+
+---
+
+### 🔬 FUSION — Framework for Unified Spatial Integration of ONcologic Imaging
+
+**Problem:** PET/CT and PET/MR studies generate rich multimodal imaging data, but clinical reading remains largely visual and qualitative. Tumour boundary definitions vary by reader, and longitudinal response assessment is inconsistent across sites.
+
+**What we built:**
+- End-to-end platform for joint PET/CT and PET/MR analysis in oncology
+- Automated tumour segmentation and co-registration across multimodal volumes
+- Quantitative lesion characterisation: SUV metrics, volumetric parameters, spatial distribution maps
+- Longitudinal tracking framework for treatment response assessment
+
+**Technical approach:** Multimodal image registration (rigid + deformable), deep learning tumour segmentation, SUV-based PET quantification, DICOM-compliant pipeline for PACS integration
+
+**Outcome:** Operational research platform at CIRC NUS, supporting oncology imaging studies and providing a reproducible quantification layer that clinical reading cannot offer alone.
+
+---
+
+### 🧬 COMPAS — COMPosition & Phenotype Analysis System
+
+**Problem:** Body composition — fat depots, skeletal muscle mass, intra-muscular and inter-muscular fat — is a critical determinant of metabolic risk, sarcopenia, and treatment tolerance in oncology and ageing. Existing tools are manual, slow, and not scalable for research cohorts.
+
+**What we built:**
+- Automated body composition quantification from CT and MRI volumes
+- Segmentation of visceral adipose tissue (VAT), subcutaneous adipose tissue (SAT), skeletal muscle, intra-muscular fat (IMAT), and inter-muscular fat (EMAT)
+- Phenotype classification pipeline for metabolic profiling at population scale
+- Cohort-level outputs for research and clinical trial screening
+
+**Technical approach:** Multi-class semantic segmentation (deep learning), atlas-guided anatomical localisation, radiomics feature extraction, structured CSV/DICOM output for downstream analysis
+
+**Outcome:** Deployed in cohort studies at CIRC NUS. Enables research-grade body composition phenotyping that is reproducible, scalable, and free of operator variability.
+
+---
+
+### 🧠 NEXUS — Neuro-Cardiac EXplorer for Dynamic Scanning
+
+**Problem:** Dynamic PET scanning generates time-activity curves (TACs) and kinetic parameters that are rarely extracted in clinical practice due to computational complexity. This leaves parametric information — which is often more sensitive to pathology than static SUV — unused.
+
+**What we built:**
+- Full kinetic modelling pipeline for dynamic PET data: TAC extraction, Patlak and Logan graphical analyses, parametric map generation
+- Integration with NEURODESK (Queensland Brain Institute) for standardised neuroimaging processing
+- Support for both neuro and cardiac dynamic PET protocols
+- Parametric image output: Ki maps, distribution volume ratio (DVR), net influx rate
+
+**Technical approach:** Compartmental and graphical kinetic modelling (Patlak, Logan, reversible/irreversible), image-derived input function (IDIF) estimation, time-series volume processing, NEURODESK workflow integration
+
+**Outcome:** Research platform operational at CIRC NUS, enabling quantitative kinetic PET analysis that is currently unavailable in standard clinical software.
+
+> *Better quantification leads to better decisions. That is what this work is about.*
+
+---
+
+## Flagship Projects *(A\*STAR · 2003–2024)*
 
 ### 🧠 Project 1: Stroke Clinical AI System (iStrokeSuite / Stroke CAD)
 
@@ -177,9 +237,9 @@ A clinical AI system that does not integrate into how clinicians work does not g
 |---|---|---|
 | Python | Advanced | All recent ML/AI projects |
 | MATLAB | Expert | Signal processing, legacy clinical systems |
-| SQL | Advanced | Clinical database management |
+| SQL | Basic | Clinical database management |
 | Docker / Containerisation | Advanced | Clinical tool deployment |
-| Linux / HPC | Expert | Large-scale imaging computation |
+| Linux / HPC | Advanced | Large-scale imaging computation |
 | REST API design | Advanced | Clinical system integration |
 | AWS / Cloud Infrastructure | Working | Research compute environments |
 | Git / Version Control | Advanced | All software projects |
