@@ -10,6 +10,7 @@
 ## Table of Contents
 - [Who I Am](#who-i-am)
 - [Flagship Projects](#flagship-projects)
+- [Clinical UX Design Documentation](#clinical-ux-design-documentation)
 - [Skills Matrix](#skills-matrix)
 - [Patents](#patents--intellectual-property)
 - [Selected Publications](#selected-publications)
@@ -54,6 +55,9 @@ With 15 granted patents (5 licensed to industry), experience with NHIC and A*STA
 
 **Patents:** US8369598 · US8125223 · SG163063 · EP2089851 · SG151426
 
+**System Design Documentation:**
+> 🔀 [Clinical Decision Pathway & System Flow](https://bhanuprakashkn.github.io/user-flows.html#stroke) — decision logic grounded in patent specifications US8369598 · US8125223 · EP2089851
+
 ---
 
 ### 🧬 Project 2: SG Normative Brain Template & Volumetry Atlas
@@ -68,6 +72,9 @@ With 15 granted patents (5 licensed to industry), experience with NHIC and A*STA
 **Technical approach:** Deep learning-based segmentation and registration, template construction, population-based normalisation, NUS/clinical data pipelines
 
 **Outcome:** NHIC Innovation Grant recipient. Ongoing at CIRC, NUS (2025–present).
+
+**System Design Documentation:**
+> 🔀 [Clinical Decision Pathway & System Flow](https://bhanuprakashkn.github.io/user-flows.html#brain) — population normalisation logic and output routing grounded in NHIC grant specifications
 
 ---
 
@@ -97,6 +104,9 @@ With 15 granted patents (5 licensed to industry), experience with NHIC and A*STA
 
 **Technical approach:** Multi-modal data fusion (imaging + clinical lab + wearable), ensemble ML, body composition segmentation from MRI/CT, clinical API integration
 
+**System Design Documentation:**
+> 🔀 [Clinical Decision Pathway & System Flow](https://bhanuprakashkn.github.io/user-flows.html#sarco) — phenotyping classification logic and output routing drawn from published AI methodology
+
 ---
 
 ### 🫀 Project 5: Multi-site Cardiac MRI Analysis Application
@@ -109,6 +119,7 @@ With 15 granted patents (5 licensed to industry), experience with NHIC and A*STA
 - Capable of handling multiple cardiac conditions and acquisition protocols
 
 **Technical approach:** DICOM-compliant multi-site pipeline, cardiac segmentation, volumetric and functional parameter extraction, quality control automation
+
 
 ---
 
@@ -124,6 +135,18 @@ With 15 granted patents (5 licensed to industry), experience with NHIC and A*STA
 **Technical approach:** Intensity-based landmark detection, geometric fitting algorithms, multi-resolution registration, automated commissure localisation
 
 **Patents:** US7783090 · US8311359 · US8045775 · SG150019 · SG147488
+
+---
+
+## Clinical System Design Documentation
+
+A clinical AI system that does not integrate into how clinicians work does not get used. The following documents the clinical decision logic, data flow architecture, and output routing for three deployed projects — drawn from patent specifications and published methodology.
+
+| | Document | What it contains |
+|---|---|---|
+| 🔀 | [**Clinical Decision Pathways & System Flows**](https://bhanuprakashkn.github.io/user-flows.html) | The decision logic and data flow architecture embedded in the Stroke CAD, Brain Atlas, and Sarcopenia AI systems — grounded in patent and publication specifications |
+
+> These diagrams represent the actual system architecture and clinical integration design — not retrospective UX deliverables.
 
 ---
 
@@ -156,7 +179,7 @@ With 15 granted patents (5 licensed to industry), experience with NHIC and A*STA
 | MATLAB | Expert | Signal processing, legacy clinical systems |
 | SQL | Advanced | Clinical database management |
 | Docker / Containerisation | Advanced | Clinical tool deployment |
-| Linux / HPC | Advanced | Large-scale imaging computation |
+| Linux / HPC | Expert | Large-scale imaging computation |
 | REST API design | Advanced | Clinical system integration |
 | AWS / Cloud Infrastructure | Working | Research compute environments |
 | Git / Version Control | Advanced | All software projects |
@@ -210,8 +233,6 @@ With 15 granted patents (5 licensed to industry), experience with NHIC and A*STA
 - **9 Keynote Addresses** at international conferences
 - Presentations at RSNA (Radiological Society of North America)
 - Radiological Society of Singapore, Asia-Pacific Signal Processing conferences
-- European Society of Radiology
-- Singapore Congress of Radiology 
 
 ### Editorial & Review
 - **Editorial Board:** MDPI · AI in Medical Imaging · Frontiers in Behavioural Neuroscience
